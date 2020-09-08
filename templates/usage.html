@@ -1,0 +1,8 @@
+{% extends 'index.html' %}
+
+{% block body %}
+    <h1>THing</h1>
+{% for article in articles %}
+  <li>  {{article.title}} </li>
+    {% endfor %}
+{% endblock %}
