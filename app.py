@@ -71,4 +71,4 @@ def usage():
    return render_template('usage.html')
 
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
